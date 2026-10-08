@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/ORTIPIK-00d4ff?style=for-the-badge&labelColor=0a0e1a" height="50"/>
 </a>
 
-# 👋 Salut, moi c'est **Ortipik**
+# 👋 **Ortipik**
 
 ### 🔧 Sysadmin · 🐧 Linux enthusiast · 🛡️ Sécurité réseau · 📜 Créateur de scripts
 
