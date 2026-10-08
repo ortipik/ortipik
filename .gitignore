@@ -1,0 +1,47 @@
+# ----------------------------------------------------------------------
+# ortipik — depot de profil GitHub (ortipik/ortipik)
+# ----------------------------------------------------------------------
+# ATTENTION : docs/assets/*.png DOIT rester versionne. Ces images sont
+# appelees en URL brute (raw.githubusercontent.com/ortipik/ortipik/
+# refs/heads/main/docs/assets/...) par les README des trois autres
+# depots (orti-file, orti-logs, orti-wall) : les exclure casserait
+# l'affichage du logo sur chacun d'eux, pas seulement ici.
+!docs/assets/
+!docs/assets/*.png
+
+# Sources et intermediaires d'edition d'images (le PNG exporte suffit)
+*.xcf
+*.kra
+*.psd
+*.ai
+*.sketch
+*-wip.png
+*-draft.png
+
+# Sauvegardes d'editeur (vim/gedit/nano : README.md~...)
+*~
+*.bak
+*.orig
+.*.swp
+*.swp
+*.swo
+
+# Configuration d'editeur / IDE
+.vscode/
+.idea/
+
+# Secrets et reglages locaux
+.env
+*.local
+*.secret
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
+
+# Archives
+*.tar.gz
+*.tgz
+*.zip
